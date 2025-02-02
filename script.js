@@ -1,3 +1,29 @@
+
+
+
+let result = {
+
+    "tag": "",
+    "free": true,
+    "role": false,
+    "user": "sharjotsingh44",
+    "email": "sharjotsingh44@gmail.com",
+    "score": 0.64,
+    "state": "deliverable",
+    "domain": "gmail.com",
+    "reason": "valid_mailbox",
+    "mx_found": true,
+    "catch_all": null,
+    "disposable": false,
+    "smtp_check": true,
+    "did_you_mean": "",
+    "format_valid": true
+
+}
+
+
+
+
 btn.addEventListener("click", async(e) => {
     e.preventDefault();
     console.log("ih")
