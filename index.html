@@ -9,7 +9,25 @@
 </head>
 
 <body>
-   
+    <main>
+        <div class="container">
+            <h1>Enter your email to validate</h1>
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <label for="email">Email:</label>
+                <input placeholder="enter your email" type="text" id="email" name="email" required>
+                <br><br>
+
+                <!-- Submit button -->
+                <button id="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="resultCont" class="container">
+            <h2>Your Results</h2>
+          
+        </div>
+    </main>
 </body>
 
 </html>
